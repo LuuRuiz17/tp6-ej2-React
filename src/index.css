@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container{
+  min-height: 100vh;
+}
+
+@keyframes cambiarColor {
+  0% {
+    color: rgb(254, 50, 84);
+  }
+  50% {
+    color: rgb(255, 117, 140);
+  }
+  100% {
+    color: pink;
+  }
+}
+
+.color-loop {
+  animation: cambiarColor 3s infinite;
+  font-size: 2rem;
+}
+
